@@ -36,8 +36,7 @@
     transform: rotate(360deg);
   }
 } */
-.header {
-}
+
 .header-lists {
   display: flex;
   justify-content: space-evenly;
@@ -52,4 +51,28 @@
 }
 .header-list:hover {
   transform: scale(1.2);
+}
+.main {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.footer-lists {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0rem;
+}
+.footer-list {
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.footer-list:hover {
+  transform: translateY(-20px);
 }
