@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,21 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.header {
+}
+.header-lists {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0rem;
+}
+.header-list {
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.header-list:hover {
+  transform: scale(1.2);
 }
